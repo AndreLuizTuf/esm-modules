@@ -1,3 +1,3 @@
-import { disconnectDatabase } from './utils/database.js';
+import { disconnectDatabase, databaseType } from './utils/database.js';
 
 disconnectDatabase();
