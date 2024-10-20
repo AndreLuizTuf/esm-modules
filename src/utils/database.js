@@ -8,7 +8,7 @@ async function disconnectDatabase() {
   console.log("desconectado do Banco de dados");
 }
 
-export default {connectToDatabase, disconnectDatabase};
+export { connectToDatabase, disconnectDatabase };
 
 // module.exports = {
 //   connectToDatabase,
